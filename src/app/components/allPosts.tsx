@@ -81,7 +81,7 @@ export default function HomePage() {
 
       {/* Update Modal */}
       {editingPost && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center">
           <div className="bg-white rounded-lg p-6 w-96">
             <h2 className="text-lg font-semibold mb-4">Edit Post</h2>
 
